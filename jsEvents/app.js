@@ -20,5 +20,5 @@ focus.addEventListener("focus", (evento) => {
 const input = document.querySelector(".value");
 
 input.addEventListener("input", (evento) => {
-  console.log("🚀 ~ evento:", evento);
+  console.log("🚀 ~ evento:", evento.target.value);
 });
